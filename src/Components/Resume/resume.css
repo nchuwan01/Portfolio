@@ -1,0 +1,21 @@
+#ResumeSize{
+    height: auto;
+    padding: 50px;
+    text-align: center;
+    width: 70%;
+}
+.mainIntroBodyRes
+{
+   display: flex;
+   justify-content: center;
+
+}
+
+#ResumeSize:hover{
+    cursor: pointer;
+
+}
+.title{
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,77 @@
+.mainIntroBody
+{
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 150px;
+    padding-top: 40px;
+    column-gap: 40px;
+
+}
+
+#pfpImage {
+    height: 350px;
+    width: 350px;
+    float: right;
+    border-radius: 50%;
+}
+#imgsAbout{
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+}
+.line{
+  background-color: rgb(4, 170, 109,.5);
+  height: 2px;
+  width: 100%;
+}
+
+#imageDiv
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+
+}
+
+#extraInfo
+{
+    padding: 0 200px;
+    line-height: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#NextButton{
+  text-align: center;
+}
+
+.projectButton, .contactButton
+{
+    background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5%;
+
+}
+
+@media screen and (max-width: 962px) {
+  .mainIntroBody
+  {
+    grid-template-columns: auto;
+  }
+
+}
+@media screen and (max-width: 1244px) {
+    #extraInfo{
+      padding: 0px;
+    }
+
+  
+}

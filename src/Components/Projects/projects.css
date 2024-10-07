@@ -1,0 +1,92 @@
+.projectImage
+{
+    height: 350px;
+}
+#imageDiv{
+
+}
+#myApp{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+.projectTop
+{
+    display: grid;
+}
+.videoData {
+    display: inline;
+}
+
+.ProjectDiv
+{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    column-gap: 100px;
+    row-gap: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: aliceblue;
+    
+}
+.divText
+{
+    padding: 20px;
+}
+
+video{
+    width: 40em;
+
+}
+.showProjectDiv
+{
+    background-color: rgba(254, 254, 254, 0.093);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1349px) {
+
+    .ProjectDiv{
+        grid-template-columns: auto;
+    }
+
+
+}
+@media screen and (max-width: 737px) {
+    .divText
+    {
+        padding: 10px 0px;
+    }
+    video{
+        width: 35em;
+    }
+}
+
+
+@media screen and (max-width: 611px) {
+    
+    video{
+        width: 385px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    video{
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    video{
+        width: 250px;
+    }
+}
+
